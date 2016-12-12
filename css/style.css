@@ -93,3 +93,21 @@ h1 {
   .epoch .gauge-labels .value {
     font-size: 24px;
 }
+@media screen and (max-width: 720px) {
+  #gaugeChart {
+    width: 100%;
+    top: 0;
+    margin-left: 0;
+  }
+  #heatmap {
+    width: 100%;
+    margin-left: 0;
+    height: initial;
+  }
+  #heatmap text{
+    font-size: 10px;
+  }
+  #bottom-panel {
+    height: initial;
+  }
+}
